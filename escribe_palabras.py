@@ -13,3 +13,11 @@ class Escribe:
         for i in range(0,numeroDePalabras):
             str=str+self.abecedario[rd.randint(0, 25)]
         return str
+
+    def divide_str(self,string):
+        lista=[]
+        for i in range(0,len(string)):
+            lista.append(string[i])
+
+        return lista
+

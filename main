@@ -9,4 +9,11 @@ print(c.sumar())
 
 e=Escribe()
 
-print(e.escribir(c.restar()))
+data=e.escribir(c.restar())
+
+print(data)
+
+
+l=e.divide_str(data)
+
+print(l)
