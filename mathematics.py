@@ -11,7 +11,7 @@ class Calculadora:
     def sumar(self):
          return self.num1+ self.num2
 
-    def restar(self, num1,num2):
+    def restar(self):
         return self.num1 - self.num2
 
 

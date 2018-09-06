@@ -1,6 +1,12 @@
 from mathematics import Calculadora
+from escribe_palabras import Escribe
 
 
 c= Calculadora(50,30)
 
 print(c.sumar())
+
+
+e=Escribe()
+
+print(e.escribir(c.restar()))
