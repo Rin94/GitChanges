@@ -1,0 +1,6 @@
+from mathematics import Calculadora
+
+
+c= Calculadora(50,30)
+
+print(c.sumar())
